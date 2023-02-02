@@ -52,19 +52,17 @@ body {
 .articles__item:not(:last-child) {
 	margin-bottom: 1.25rem;
 }
-.article {
-}
-.articles__image {
+.article__image {
 	display: block;
 	margin-bottom: 1.875rem;
 	position: relative;
 	border-radius: 0.1875rem;
 	overflow: hidden;
 }
-.articles__image:hover img {
+.article__image:hover img {
 	transform: scale(1.03);
 }
-.articles__image img.init {
+.article__image img.init {
 	position: absolute;
 	width: 100%;
 	height: 100%;
