@@ -52,6 +52,16 @@ body {
 .articles__item:not(:last-child) {
 	margin-bottom: 1.25rem;
 }
+@media (max-width: 430px) {
+	.articles__item {
+		width: 100%;
+	}
+	/* Cancel fitWidth*/
+	.articles__items {
+		width: auto !important;
+
+	}
+}
 .article__image {
 	display: block;
 	margin-bottom: 1.875rem;
